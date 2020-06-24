@@ -42,6 +42,8 @@ $ mysql -u root test  < books.sql
 
 $ php artisan migrate
 
+Alternatively, you can import the database to your environment using the database file (books.sql)
+
 ## Generate a new application key
 
 $ php artisan key:generate
